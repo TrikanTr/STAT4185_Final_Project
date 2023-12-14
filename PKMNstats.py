@@ -45,6 +45,7 @@ X_lin = df["BST"]
 Y_lin = df["usage"]
 plt.scatter(X_lin, Y_lin)
 plt.show()
+#must close plot to continue program
 
 #all numeric columns for using in ML models
 columns_to_scale = ['BST','HP','ATK', 'DEF', 'SPA', 'SPD','SPE']
